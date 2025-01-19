@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(216, 233, 252);
+    margin-top:85px;
+    background-image:url('/images/DALL·E\ 2025-01-17\ 17.39.36\ -\ A\ visually\ striking\ and\ detailed\ medical\ illustration\ showcasing\ human\ tissue\ and\ cells\ in\ a\ vibrant\,\ artistic\,\ and\ futuristic\ style.\ Highlight\ micros.webp');
+}
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;  
+    background-color:rgba(255, 255, 255, 0.5);
+    position:fixed;
+    top:0;
+    right:0;
+    width:100%;
+    z-index:100;
+}
+.name{
+    font-size:2.5em;
+    margin-bottom:0;
+}
+.mail{
+    font-size:1em;
+    margin-top:0;
+}
+.top-holder{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+section{
+    text-align:center;
+    border-bottom:black 5px solid;
+    margin-top:250px;
+    color:white;
+}
+.container{
+    padding-top:15px;
+    display:flex;
+    justify-content:center;
+    gap:2%;
+    align-items:center;
+    flex-wrap:wrap;  
+}
+.part{
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:15px;
+    width:383px;
+    height:230px;
+}
+button{
+    cursor:pointer;
+    padding: 10px;
+    font-size: 15px;
+    border-radius:10px;
+    border:black 1px solid;
+}
+button:hover{
+    background-color:black;
+    border: white solid 1px;
+    color:white;
+}
+.icon{
+    margin-right:20px;
+}
+.icon:hover{
+    color:white;
+}
+.first{
+    position:relative;
+    background-image:url('https://th.bing.com/th/id/R.1d7796ad9e19d7ecb450d2e5dede8097?rik=k%2f%2fQOctpnPiccg&riu=http%3a%2f%2fwww.college.nms.ac.jp%2fvar%2frev0%2f0025%2f5933%2fnms_emblem.png&ehk=8q6FQp6%2fpPUU6Bl6xicpiEAEkOUX6SgJi7rN2spSSPg%3d&risl=&pid=ImgRaw&r=0');
+    background-size:cover;
+}
+
+.about{
+    text-align:center;
+    color:rgb(7, 7, 7);
+    font-size:40px;
+}
+.tissue{
+    height:340px;
+    
+}
+.second{
+    background-size:100px 100px;
+    background-image:url('https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png');
+}
+.third{
+    background-size:cover;
+    background-image:url('https://static.vecteezy.com/system/resources/previews/026/135/350/original/arsenal-club-logo-white-symbol-premier-league-football-abstract-design-illustration-with-red-background-free-vector.jpg');
+}
+.dropdown{
+    display:none;  
+    position:relative;
+}
+.dropdown-menu{
+    background-color:black;
+    position:absolute;
+    top:50px;
+    right:20px;
+    border-radius:15px;
+    list-style:none;
+    padding:10px;
+}
+.dropdown-menu a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+.dropdown-menu a:hover{
+    text-decoration:underline;
+}
+.dropdown-toggle{
+    background-color:white;
+    padding:15px;
+}
+.dropdown-toggle:hover{
+    background-color:transparent;
+}
+
+@media(max-width:1024px){
+    .dropdown{
+        display:block;
+    }
+    .top-holder{
+        display:none;
+    }
+    .dropdown-menu{
+        display:none;
+        transition:all 1s ease;
+    }
+    .dropdown-menu.active{
+        display:block;
+        background-color:black;
+    }
+}   
