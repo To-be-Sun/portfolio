@@ -1,7 +1,7 @@
 body{
     background-color: rgb(216, 233, 252);
     margin-top:85px;
-    background-image:url("/portfolio/index/images/DALL·E\ 2025-01-17\ 17.39.36\ -\ A\ visually\ striking\ and\ detailed\ medical\ illustration\ showcasing\ human\ tissue\ and\ cells\ in\ a\ vibrant\,\ artistic\,\ and\ futuristic\ style.\ Highlight\ micros.webp");
+    background-image:url("/index/images/DALL·E\ 2025-01-17\ 17.39.36\ -\ A\ visually\ striking\ and\ detailed\ medical\ illustration\ showcasing\ human\ tissue\ and\ cells\ in\ a\ vibrant\,\ artistic\,\ and\ futuristic\ style.\ Highlight\ micros.webp");
 }
 header{
     display:flex;
@@ -42,7 +42,7 @@ section{
     flex-wrap:wrap;  
 }
 .part{
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     color:white;
     display:flex;
     flex-direction:column;
@@ -77,10 +77,29 @@ button:hover{
     background-image:url('https://th.bing.com/th/id/R.1d7796ad9e19d7ecb450d2e5dede8097?rik=k%2f%2fQOctpnPiccg&riu=http%3a%2f%2fwww.college.nms.ac.jp%2fvar%2frev0%2f0025%2f5933%2fnms_emblem.png&ehk=8q6FQp6%2fpPUU6Bl6xicpiEAEkOUX6SgJi7rN2spSSPg%3d&risl=&pid=ImgRaw&r=0');
     background-size:cover;
 }
+.first p{
+    background-color:rgba(0, 0, 0, 0.555);
+}
+.first h2{
+    background-color:rgba(0, 0, 0, 0.555);
+}
+.second p{
+    background-color:rgba(247, 219, 5, 0.495);
+}
+.second h2{
+    background-color:rgba(247, 219, 5, 0.495);
+}
+.third p{
+    background-color:rgba(255, 4, 4, 0.555);
+}
+.third h2{
+    background-color:rgba(255, 4, 4, 0.555);
+}
+
 
 .about{
     text-align:center;
-    color:rgb(7, 7, 7);
+    color:white;
     font-size:40px;
 }
 .tissue{
